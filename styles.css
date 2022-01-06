@@ -67,6 +67,7 @@ a{
 }
 .middle{
     display: flex;
+    
 }
 .box{
     font-size: 17px;
@@ -75,6 +76,7 @@ a{
     border-radius: 10px;
     padding: 20px;
     margin: 20px;
+    
     
 }
 h1{
@@ -120,17 +122,27 @@ h1{
     height: auto;
     
 }
-.f-main{
+.fetures-main{
+    background-color: #eee;
+    padding: 5px;
+}
+
+.f-head{
     color: rgb(65, 102, 11);
     text-align: center;
-    margin-top: 10%;
+    margin-top: 5%;
+    
+    
 }
 .fetures{
     display:flex;
     margin: 20px 150px 100px 150px;
     padding-left: 10px;
+    
 
 }
+
+
 .f-2{
     font-size: 20px;
 }
@@ -141,18 +153,38 @@ h1{
     border-radius: 10pz;
     margin: 5px;
     padding: 5px 5px 10px 5px;
+    float: left;
     
+}
+.box-img{
+    box-shadow: none;
+    background-color: orange;
+    border-radius: 50%;
+    max-width: auto;
+    transition: 1s;
+}
+.box-img:hover{
+    box-shadow: none;
+    background-color: rgb(116, 33, 18);
+    border-radius: 50%;
+    transition: 1s;
+}
+
+.container{
+    background-color: rgba(238, 209, 209, 0.753);
+    padding: 50px;
+    border-radius: 20px;
+    margin: 10px 50px 0px 50px ;
+    margin-bottom: 5px;
+    
+}
+.contact-box{
+    text-align: center;
     
 }
 
 
-
-
-
-
-
-
-input[type=text], select, number, textarea{
+input[type=text], select, textarea{
     width: 100%;
     background-color: rgb(253, 253, 253);
     border: 2px solid rgb(229, 231, 229);
@@ -162,32 +194,18 @@ input[type=text], select, number, textarea{
     box-sizing: border-box;
     resize: vertical;
 }
-.container{
-    background-color: rgba(219, 216, 216, 0.753);
-    padding: 20px;
-    border-radius: 5px;
-    margin: 50px 50px 0px 50px ;
-    margin-bottom: 5px;
-    
 
-}
-.contact-box{
-    text-align: center;
-    color: rgb(192, 22, 22);
-    font-size: 45px;
-    text-align: center;
-}
-
-.sent{
+#submit{
+    position: center;
     background-color: red;
     padding: 8px 25px;
     border: none;
     border-radius: 7px;
     text-align: center;
-    
 }
 
-.sent:hover{
+
+#submit:hover{
     padding: 8px 20px;
     background-color: green;
     padding: 10px 30px;
